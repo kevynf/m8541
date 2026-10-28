@@ -1,0 +1,131 @@
+{
+  "songs": [
+    {
+      "id": "song-001",
+      "name": "Segmentation Fault",
+      "artistName": "The Debuggers",
+      "albumName": "Core Dumped",
+      "previewUrl": "./audio/song-001.wav"
+    },
+    {
+      "id": "song-002",
+      "name": "Null Pointer Exception",
+      "artistName": "The Debuggers",
+      "albumName": "Core Dumped",
+      "previewUrl": "./audio/song-002.wav"
+    },
+    {
+      "id": "song-003",
+      "name": "Infinite Loop",
+      "artistName": "Stack Overflow",
+      "albumName": "Recursion",
+      "previewUrl": "./audio/song-003.wav"
+    },
+    {
+      "id": "song-004",
+      "name": "Memory Leak",
+      "artistName": "Stack Overflow",
+      "albumName": "Recursion",
+      "previewUrl": "./audio/song-004.wav"
+    },
+    {
+      "id": "song-005",
+      "name": "Race Condition",
+      "artistName": "Null Pointer",
+      "albumName": "Thread Safe",
+      "previewUrl": "./audio/song-005.wav"
+    },
+    {
+      "id": "song-006",
+      "name": "Off By One",
+      "artistName": "Null Pointer",
+      "albumName": "Thread Safe",
+      "previewUrl": "./audio/song-006.wav"
+    },
+    {
+      "id": "song-007",
+      "name": "Blue Screen Waltz",
+      "artistName": "Pixel Dust",
+      "albumName": "Kernel Panic",
+      "previewUrl": "./audio/song-007.wav"
+    },
+    {
+      "id": "song-008",
+      "name": "Cache Miss",
+      "artistName": "Pixel Dust",
+      "albumName": "Kernel Panic",
+      "previewUrl": "./audio/song-008.wav"
+    },
+    {
+      "id": "song-009",
+      "name": "Garbage Collection",
+      "artistName": "The Debuggers",
+      "albumName": "Core Dumped",
+      "previewUrl": "./audio/song-009.wav"
+    },
+    {
+      "id": "song-010",
+      "name": "Stack Trace",
+      "artistName": "Stack Overflow",
+      "albumName": "Recursion",
+      "previewUrl": "./audio/song-010.wav"
+    }
+  ],
+  "artists": [
+    {
+      "id": "artist-1",
+      "name": "The Debuggers",
+      "songIds": ["song-001", "song-002", "song-009"]
+    },
+    {
+      "id": "artist-2",
+      "name": "Stack Overflow",
+      "songIds": ["song-003", "song-004", "song-010"]
+    },
+    {
+      "id": "artist-3",
+      "name": "Null Pointer",
+      "songIds": ["song-005", "song-006"]
+    },
+    {
+      "id": "artist-4",
+      "name": "Pixel Dust",
+      "songIds": ["song-007", "song-008"]
+    }
+  ],
+  "playlists": [
+    {
+      "id": "playlist-1",
+      "name": "Debugging Mix",
+      "songIds": ["song-001", "song-002", "song-003", "song-004", "song-005"]
+    },
+    {
+      "id": "playlist-2",
+      "name": "Late Night Refactor",
+      "songIds": [
+        "song-005",
+        "song-006",
+        "song-007",
+        "song-008",
+        "song-009",
+        "song-010"
+      ]
+    },
+    {
+      "id": "playlist-3",
+      "name": "All Songs",
+      "songIds": [
+        "song-001",
+        "song-002",
+        "song-003",
+        "song-004",
+        "song-005",
+        "song-006",
+        "song-007",
+        "song-008",
+        "song-009",
+        "song-010"
+      ]
+    }
+  ]
+}

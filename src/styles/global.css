@@ -1,0 +1,51 @@
+@font-face {
+  font-family: ChicagoKare;
+  src: url("../assets/fonts/ChicagoKare-Regular.woff2") format("woff2");
+  font-display: block;
+}
+
+@font-face {
+  font-family: Krungthep;
+  src: local("Krungthep");
+  font-display: block;
+  size-adjust: 79.5%;
+  ascent-override: 94.1%;
+  descent-override: 27.7%;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #000000d9;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100svh;
+  padding: 5px 20px 100px;
+}
+
+.player-container {
+  width: 100%;
+  max-width: 415px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #000;
+    color: #fff;
+  }
+}

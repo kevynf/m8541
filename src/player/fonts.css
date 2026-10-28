@@ -1,0 +1,14 @@
+@font-face {
+  font-family: ChicagoKare;
+  src: url("../assets/fonts/ChicagoKare-Regular.woff2") format("woff2");
+  font-display: block;
+}
+
+@font-face {
+  font-family: Krungthep;
+  src: local("Krungthep");
+  font-display: block;
+  size-adjust: 79.5%;
+  ascent-override: 94.1%;
+  descent-override: 27.7%;
+}

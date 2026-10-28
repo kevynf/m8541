@@ -1,0 +1,14 @@
+<svg width="72" height="72" viewBox="-14.5 -14.5 29 29" fill="#000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask id="boot-logo-mask" maskUnits="userSpaceOnUse" x="-14.5" y="-14.5" width="29" height="29">
+      <circle r="14" fill="#fff"/>
+      <circle r="12" fill="#000"/>
+      <line x1="-20" y1="-20" x2="20" y2="20" stroke="#000" stroke-width="2"/>
+      <line x1="-20" y1="20" x2="20" y2="-20" stroke="#000" stroke-width="2"/>
+      <circle r="10" fill="#fff"/>
+      <circle r="3" fill="#000"/>
+      <line x1="2" y1="0" x2="2" y2="-11" stroke="#000" stroke-width="2"/>
+    </mask>
+  </defs>
+  <rect x="-14.5" y="-14.5" width="29" height="29" mask="url(#boot-logo-mask)"/>
+</svg>
